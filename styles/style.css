@@ -13,6 +13,7 @@
     font-weight: 400;
     font-style: normal;
   }
+  
 
 
 
@@ -51,8 +52,85 @@
   .list1 button{
     color: beige;
     background: rgba(230, 83, 60, 1);
-    border-radius: 39%;
+    border-radius: 39px;
     border: none;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 8px 20px;
   }
+  /* hero style */
+  .hero-shape{
+    font-style: italic;
+    font-weight: 100;
+  }
+  .hero-heading{
+    color:rgba(255, 255, 255, 1);
+    ;
+    font-size: 5rem;
+    font-weight: 900;
+  }
+  .hero-paragraph{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  .btn{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px 40px;
+    border-radius: 42px;
+    cursor: pointer;
+    
+  }
+  .btn-join{
+    background-color: rgba(230, 83, 60, 1);
+    border: 1px solid rgba(230, 83, 60, 1);
+  }
+
+  .btn-1 , .btn-2{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 1);
+    ;
+    height: 98px;
+    width: 193px;
+    border-radius: 12px;
+    font-weight: 900;
+
+
+  }
+  .span-tag{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+    
+  }
+  .hero{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+.btn-1{
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+    
+}
+.btn-2{
+    position: absolute;
+    top: 300px;
+    left: 1300px;
+}
+.red{
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+}
+.red-dot{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
