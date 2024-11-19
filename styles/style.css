@@ -6,6 +6,9 @@
     background-color: rgba(17, 17, 17, 1)
     ;
 }
+img{
+  width: 100%;
+}
 
 .inter-font {
     font-family: "Inter", sans-serif;
@@ -13,7 +16,11 @@
     font-weight: 400;
     font-style: normal;
   }
-  
+
+  .margin{
+    width: 80%;
+    margin: auto;
+  }
 
 
 
@@ -56,6 +63,9 @@
     border: none;
     cursor: pointer;
     padding: 8px 20px;
+  }
+  .bar{
+    display: none;
   }
   /* hero style */
   .hero-shape{
@@ -134,3 +144,322 @@
     align-items: center;
 
 }
+
+/* section habit change styles */
+#habit{
+  color: white;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.image1 , .image2 , .image3 , .image4{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.habit-images{
+  display: flex;
+}
+.habit-images p{
+  font-size: 0.9rem;
+}
+.habit-header{
+  margin-bottom: 50px;
+}
+
+/* extra miles shared style */
+.extra-miles{
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 30px 25px 30px 25px;
+  background: rgba(34, 34, 34, 1);
+  ;
+}
+.mile-text , .head , .p{
+  background: rgba(34, 34, 34, 1);
+
+}
+.head{
+  font-size: 3rem;
+  font-weight: 900;
+}
+/* bmi section styles */
+.title-bmi{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.bmi{
+  margin: 20px auto;
+  padding: 30px 25px 25px 30px;
+  color: white;
+  background: rgba(34, 34, 34, 1);
+
+}
+.chart-bmi,h4{
+  background: rgba(34, 34, 34, 1);
+
+}
+table , th , td{
+  background: rgba(34, 34, 34, 1);
+
+  border: 1px solid rgba(255, 255, 255, 0.1)
+  
+}
+
+/* Calculator style  */
+
+.calculator-form ,input , select{
+  color: white;
+  background: rgba(34, 34, 34, 1);
+
+  
+}
+.calculator-flex{
+  display: flex;
+  justify-content: space-around;
+  background: rgba(34, 34, 34, 1);
+
+}
+.chart-bmi tr, .chart-bmi td, .chart-bmi th{
+  padding: 10px 5px;
+}
+
+.bmi h4 , .bmi p,.bmi div ,.calculator-head{
+  background: rgba(34, 34, 34, 1);
+
+}
+.bmi p{
+  font-size: 0.8rem;
+}
+.calculator-form input, .calculator-form select{
+  margin-top: 10px;
+  padding: 10px 5px;
+  border-radius: 10px;
+}
+
+/* meet team styles */
+
+.grid-photo{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  color: white;
+  gap: 15px;
+
+}
+.grid-color div{
+  background-color: rgba(34, 34, 34, 1);
+
+}
+.grid-photo{
+  justify-items: center;
+  align-items: center;
+}
+.grid-photo img{
+  width: 250px;
+  height: 272px;
+  border-radius: 18px;
+}
+.img-pos{
+  position: relative;
+  
+
+}
+
+.position{
+  background: transparent !important;
+  position: absolute ;
+  bottom: 12px;
+  left: 15px;
+}
+.position h6, .position p{
+  background: transparent;
+}
+.meet-team{
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.team-head{
+  text-align: center;
+}
+
+/* extra div style */
+
+.extra{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.extra-div{
+  color: white;
+  
+  
+  
+}
+.card {
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  transition: transform 0.3s;
+}
+
+
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.card-description {
+  font-size: 0.9em;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.card-button {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}
+.extra-title{
+  text-align: center;
+  color: white;
+}
+
+/* footer style started */
+
+.get{
+  color: white;
+}
+
+.footer-part{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  background: rgba(34, 34, 34, 1);
+
+}
+.pp{
+  font-size: 0.7rem;
+}
+
+.part1 h1{
+  color:rgba(230, 83, 60, 1);
+  ;
+  font-size: 3rem;
+}
+
+.footer-part p{
+  color:rgba(255, 255, 255, 0.5);
+  ;
+}
+
+.footer-last{
+  text-align: center;
+  color: white;
+  
+  
+
+}
+hr{
+  color: wheat;
+  
+
+}
+.footer-part div,.footer-part p, .footer-part h1{
+  background: rgba(34, 34, 34, 1);
+
+}
+
+footer{
+  
+  background: rgba(34, 34, 34, 1);
+  padding-bottom: 50px;
+
+}
+.footer-last p{
+  background: rgba(34, 34, 34, 1);
+
+}
+.cal{
+  margin-top: 20px;
+}
+
+
+/* responsive part */
+
+@media only screen and (max-width: 575px){
+
+.list{
+  display: none;
+}
+.bar{
+  display: block;
+}
+.bar i{
+  color: white;
+}
+.hero{
+  flex-direction: column;
+}
+.btn-join{
+   margin-bottom: 10px;
+}
+.habit-images{
+  flex-direction: column;
+}
+.extra-miles{
+  flex-direction: column;
+}
+.calculator-flex{
+  flex-direction: column;
+}
+.grid-photo{
+  grid-template-columns: repeat(1,1fr);
+}
+.extra{
+  flex-direction: column;
+}
+.btn-1,.btn-2{
+  display: none;
+}
+.footer-part{
+  flex-direction: column;
+}
+} 
